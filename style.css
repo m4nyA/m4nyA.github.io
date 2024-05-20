@@ -1,0 +1,109 @@
+h1 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 500;
+    
+  }
+h2 { 
+    color: black;
+    font-size: xx-large;
+    font-weight: 550;
+}
+h4 { 
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    line-height: 35px;
+}
+.container {
+    width: 100%;
+    max-width: 1400px; /* Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden; /* Clear floats */
+}
+.left-column {
+    width: 66.666%; /* 2/3 of the container width */
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.right-column {
+    width: 33.333%; /* 1/3 of the container width */
+    float: right;
+    box-sizing: border-box;
+}
+.photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+
+ .pcontainer {
+            display: flex;
+            flex-direction: column;
+        }
+        .upper-row {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .lower-row {
+            display: flex;
+            flex-wrap: wrap; /* Allows photos to wrap to next line */
+            justify-content: flex-start; /* Align photos to the start */
+            align-items: center; /* Center photos vertically */
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .pdirectory {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            font-weight: 550;
+        }
+        .photo {
+            margin-right: 10px; /* Add space between images */
+            width: 25%;
+        }
+
+
+    .acontainer {
+        width: 100%;
+        max-width: 1400px; /* Adjust as needed */
+        margin: 0 auto;
+        overflow: hidden; /* Clear floats */
+    }
+    .acontainer p {
+        font-size: larger; 
+        line-height: 45px;
+    }
+    .acontainer .photo{
+        width: 100%;
+    }
+    .left-column {
+        width: 66.666%; /* 2/3 of the container width */
+        float: left;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .right-column {
+        width: 33.333%; /* 1/3 of the container width */
+        float: right;
+        box-sizing: border-box;
+    }
+   
+
+.rcontainer{
+    width: 1400px;
+}
+.rcontainer .photo{
+    width: 80%;
+}
